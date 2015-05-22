@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Dashboard Template for Bootstrap</title>
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/NewAssessment.css" rel="stylesheet">
+    <link href="../css/NavBar.css" rel="stylesheet">
+    <link href="../pruebaCSS/jquery-ui.css" rel="stylesheet">
+    <script src="../prueba-js/jquery.js"></script>
+    <script src="../prueba-js/jquery-ui.js"></script>
+
+
+</head>
+
+<body class="my-body">
+
+    <!------------------------------------------------------------------------------------------------------------------------------>
+    <!------------------------------------------------------------------------------------------------------------------------------>
+    <!-------------------------Navigation Bar ---------------------------->
+
+    <div class="navbar navbar-inverse navbar-fixed-top my-nav-bar">
+        <div class="container">
+            <div class="row">
+                <div id="my-nav-bar-home-but" class="col-md-1" >
+                    <a href="Home.html"><button><span class="glyphicon glyphicon-home"></span></button></a>
+                </div>
+                <div id="my-nav-bar-elem-nav" class="col-md-10">
+                    <ul>
+                        <a href="#"><li>About</li></a>
+                        <a href="#"><li>Contact</li></a>
+                    </ul>
+                </div>
+                <div id="my-nav-bar-options" class="col-md-1">
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                            <span class="glyphicon glyphicon-align-justify"></span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="dropdownMenu1">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                            <li role="presentation" class="divider"></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!------------------------------------------------------------------------------------------------------------------------------>
+    <!------------------------------------------------------------------------------------------------------------------------------>
+    <!-------------------------Begin MC Question Model ---------------------------->
+
+            <div  id="mc-question-0" class="row mult-choice" hidden="hidden">
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-2 num-quest-label">
+                    <div>
+                        <h3>Q1</h3>
+                    </div>
+                </div>
+                <div class="col-md-1 my-quest-close-but">
+                    <div>
+                        <a href=""><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-remove"></span></button></a>
+                    </div>
+                </div>
+                <div class="col-md-8 my-quest-panel">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="input-group">
+                                <span class="input-group-addon">Question</span>
+                                <input type="text" class="form-control input-quest" placeholder="Write your question here...">
+                            </div>
+                        </div>
+
+                        <div class="my-quest-panel-ans">
+                            <div id="mc-append-opt-here-0" class="panel-body">
+                                <div class="input-group">
+                                    <span class="input-group-addon">Option 1</span>
+                                    <input type="text" class="form-control" placeholder="Write an option...">
+                                                <span class="input-group-addon">
+                                                    <input type="checkbox">
+                                                </span>
+                                                <span class="input-group-addon">
+                                                </span>
+                                </div>
+                                <div class="input-group">
+                                    <span class="input-group-addon">Option 2</span>
+                                    <input type="text" class="form-control" placeholder="Write an option...">
+                                    <span class="input-group-addon">
+                                        <input type="checkbox">
+                                    </span>
+                                    <span class="input-group-addon">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="panel-body my-quest-panel-optbut">
+                                <div class="input-group" >
+                                    <p>
+                                        <a href="" class="btn btn-primary" role="button">
+                                                            <span class="glyphicon glyphicon-plus">
+                                                            </span>
+                                            Option
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 my-quest-move-but">
+                    <div>
+                        <a href="#"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-arrow-up"></span></button></a>
+                    </div>
+                    <div >
+                        <a href="#"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-arrow-down"></span></button></a>
+
+                    </div>
+                </div>
+            </div>
+
+    <!------------------------------------------------------------------------------------------------------------------------------>
+    <!------------------------------------------------------------------------------------------------------------------------------>
+    <!-------------------------Begin TF Question Model ---------------------------->
+
+            <div  id="tf-question-0" class="row true-false" hidden="hidden">
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-2 num-quest-label">
+                    <div>
+                        <h3>Q1</h3>
+                    </div>
+                </div>
+                <div class="col-md-1 my-quest-close-but">
+                    <div >
+                        <a href=""><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-remove"></span></button></a>
+                    </div>
+                </div>
+                <div class="col-md-8 my-quest-panel">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="input-group">
+                                <span class="input-group-addon">Question</span>
+                                <input type="text" class="form-control input-quest" placeholder="Write your question here...">
+                            </div>
+                        </div>
+
+                        <div class="panel-body my-quest-panel-ans">
+                            <div class="input-group" >
+                                    <div class="btn-group-vertical">
+                                        <div class="my-btn-true">
+                                            <span class="input-group-addon">
+                                                <input type="radio">
+                                            </span>
+                                            <p class="input-group-addon">True</p>
+                                        </div>
+                                        <div class="my-btn-false" >
+                                            <span class="input-group-addon">
+                                                <input type="radio" >
+                                            </span>
+                                            <p class="input-group-addon">False</p>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-1 my-quest-move-but">
+                    <div>
+                        <a href="#"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-arrow-up"></span></button></a>
+                    </div>
+                    <div >
+                        <a href="#"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-arrow-down"></span></button></a>
+
+                    </div>
+                </div>
+            </div>
+
+
+    <!------------------------------------------------------------------------------------------------------------------------------>
+    <!------------------------------------------------------------------------------------------------------------------------------>
+    <!-------------------------Begin SA Question Model ---------------------------->
+
+            <div  id="sa-question-0" class="row short-answer" hidden="hidden">
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-2 num-quest-label">
+                    <div>
+                        <h3>Q1</h3>
+                    </div>
+                </div>
+                <div class="col-md-1 my-quest-close-but">
+                    <div>
+                        <a href=""><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-remove"></span></button></a>
+                    </div>
+                </div>
+                <div class="col-md-8 my-quest-panel">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="input-group">
+                                <span class="input-group-addon">Question</span>
+                                <input type="text" class="form-control input-quest" placeholder="Write your question here...">
+                            </div>
+                        </div>
+                        <div class="panel-body my-quest-panel-ans">
+                            <p>Open Question</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 my-quest-move-but">
+                    <div>
+                        <a href="#"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-arrow-up"></span></button></a>
+                    </div>
+                    <div >
+                        <a href="#"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-arrow-down"></span></button></a>
+
+                    </div>
+                </div>
+            </div>
+
+    <!------------------------------------------------------------------------------------------------------------------------------>
+    <!------------------------------------------------------------------------------------------------------------------------------>
+    <!-------------------------Begin MCP Question Model ---------------------------->
+
+    <div  id="mcp-question-0" class="row mult-choice-pic" hidden="hidden">
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-2 num-quest-label">
+            <div>
+                <h3>Q1</h3>
+            </div>
+        </div>
+        <div class="col-md-1 my-quest-close-but">
+            <div>
+                <a href=""><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-remove"></span></button></a>
+            </div>
+        </div>
+        <div class="col-md-8 my-quest-panel">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="input-group">
+                        <span class="input-group-addon">Question</span>
+                        <input type="text" class="form-control input-quest" placeholder="Write your question here...">
+                    </div>
+                </div>
+
+                <div class="my-quest-panel-ans">
+                    <div class="panel-body">
+                        <div class="row" id="mcp-append-opt-here-0">
+                        </div>
+                    </div>
+                    <div class="panel-body my-quest-panel-optbut">
+                        <div class="input-group">
+                            <div class="fileUpload btn btn-primary">
+                                <span class="glyphicon glyphicon-plus"></span>
+                                <span>Add Images</span>
+                                <input type="file" class="upload" multiple accept="image/*">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1 my-quest-move-but">
+            <div>
+                <a href="#"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-arrow-up"></span></button></a>
+            </div>
+            <div >
+                <a href="#"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-arrow-down"></span></button></a>
+
+            </div>
+        </div>
+    </div>
+
+                <!-- OPTION-->
+                <div class="col-md-3 mult-pic-opt-panel" id="mcp-option-0-q-0" hidden="hidden">
+                                            <span class="">
+                                                <input type="radio">
+                                            </span>
+                    <span class="">Option 1</span>
+                    <div class="mult-pic-add-opt">
+                        <div>
+                            <a href="#"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-remove"></span></button></a>
+                        </div>
+                    </div>
+                </div>
+
+
+    <!------------------------------------------------------------------------------------------------------------------------------>
+    <!------------------------------------------------------------------------------------------------------------------------------>
+    <!-------------------------Begin Label Question Model ---------------------------->
+
+    <div  id="label-question-0" class="row label-quest" hidden="hidden">
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-2 num-quest-label">
+            <div>
+                <h3>Q1</h3>
+            </div>
+        </div>
+        <div class="col-md-1 my-quest-close-but">
+            <div>
+                <a href=""><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-remove"></span></button></a>
+            </div>
+        </div>
+        <div class="col-md-8 my-quest-panel">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="input-group">
+                        <span class="input-group-addon">Question</span>
+                        <input type="text" class="form-control input-quest" placeholder="Write your question here...">
+                    </div>
+                </div>
+
+                <div class="my-quest-panel-ans">
+                    <div class="panel-body">
+                        <div class="col-md-12" id="">   <!-- Trabajar este DIV-->
+                        </div>
+                    </div>
+                    <div class="panel-body my-quest-panel-optbut">
+                        <div class="input-group">
+                            <div class="fileUpload btn btn-primary">
+                                <span class="glyphicon glyphicon-plus"></span>
+                                <span>Add Images</span>
+                                <input type="file" class="upload" accept="image/*">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1 my-quest-move-but">
+            <div>
+                <a href="#"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-arrow-up"></span></button></a>
+            </div>
+            <div >
+                <a href="#"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-arrow-down"></span></button></a>
+
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------------------------------------------------------------------------------------------>
+    <!------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+
+    <div id="my-panel-title-act-but" hidden="hidden">
+        <a href="javascript:ToggleCollapseQuest()"><button><span id="act-but-toggle-collapse" class="glyphicon glyphicon-menu-up"></span></button></a>
+    </div>
+
+    <div class="container my-panel-title">
+        <div class="row" > <!-- put each element in a separate div to control width-->
+                <h1>New Assessment</h1>
+        </div>
+    </div>
+
+
+    <div class="container my-panel-thumbnails">
+            <div class="row" id="new-assess-start">
+                <h1>Pick a type for your first question!</h1>
+            </div>
+
+            <div class="row" id="new-assess-thumbnails-start">
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <a href="javascript:HideThumbnails('mult-choice')">
+                            <img src="../img/Multiple%20Choice.png" alt="New">
+                        </a>
+                        <div class="caption" >
+                            <h3>Multiple Choice</h3>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <a href="javascript:HideThumbnails('true-false')">
+                            <img src="../img/True%20False.png" alt="Start">
+                        </a>
+                        <div class="caption">
+                            <h3>True/False</h3>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <a href="javascript:HideThumbnails('short-answer')">
+                            <img src="../img/Open%20question.png" alt="Manage">
+                        </a>
+                        <div class="caption">
+                            <h3>Short Answer</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <a href="javascript:HideThumbnails('multiple-pictures')">
+                            <img src="../img/Multiple%20Pics.png" alt="Manage">
+                        </a>
+                        <div class="caption">
+                            <h3>Multiple Pictures</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+        <div class="container" id="append-quest-here">
+            <div class="row" id="buttons-next-quest" hidden="hidden">
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-9" id="new-assess-thumbnails-other-quest">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <div class="thumbnail">
+                                <a href="javascript:AddQuestion('mult-choice')">
+                                    <img src="../img/Multiple%20Choice.png" alt="New">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="thumbnail">
+                                <a href="javascript:AddQuestion('true-false')">
+                                    <img src="../img/True%20False.png" alt="Start">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="thumbnail">
+                                <a href="javascript:AddQuestion('short-answer')">
+                                    <img src="../img/Open%20question.png" alt="Manage">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="thumbnail">
+                                <a href="javascript:AddQuestion('multiple-pictures')">
+                                    <img src="../img/Multiple%20Pics.png" alt="Manage">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Bootstrap core JavaScript
+        ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" preserveAspectRatio="none" style="visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs></defs><text x="0" y="10" style="font-weight:bold;font-size:10pt;font-family:Arial, Helvetica, Open Sans, sans-serif;dominant-baseline:middle">200x200</text></svg>
+
+
+
+
+
+    <!---------------------- Function Add Question  ------------------------>
+
+    <script type="text/javascript">
+
+        function AddQuestion(type) {
+
+            var div2appendquest = document.getElementById("append-quest-here");
+            var AQquestnum = div2appendquest.childElementCount-1;
+
+            AQquestnum++;
+
+            if (type == "mult-choice"){
+                $("#mc-question-0").clone().appendTo("#append-quest-here");
+                $("#append-quest-here #mc-question-0").attr("id", String("question-" + AQquestnum));
+            }else if (type == "true-false") {
+                $("#tf-question-0").clone().appendTo("#append-quest-here");
+                $("#append-quest-here #tf-question-0").attr("id", String("question-" + AQquestnum));
+            }else if (type == "short-answer") {
+                $("#sa-question-0").clone().appendTo("#append-quest-here");
+                $("#append-quest-here #sa-question-0").attr("id", String("question-" + AQquestnum));
+            } else if (type == "multiple-pictures"){
+                $("#mcp-question-0").clone().appendTo("#append-quest-here");
+                $("#append-quest-here #mcp-question-0").attr("id", String("question-" + AQquestnum));
+            }
+
+            $("#buttons-next-quest").appendTo("#append-quest-here");
+
+            javascript:ReWriteTags(AQquestnum);
+            $(String("#question-" + AQquestnum)).removeAttr("hidden");
+
+            autoScrollToNextQuest(AQquestnum);
+
+        }
+
+    </script>
+
+
+
+    <!---------------------- Function Remove Question ------------------------>
+
+
+    <script type="text/javascript">
+
+        function RemoveQuestion(RQquestnum) {
+
+            var getquest2remove;
+            var check;
+            var howmanyquestleft;
+
+                check = confirm("Do you really want to delete this question and all of its contents?");
+
+                if (check == true) {
+                    getquest2remove = document.getElementById(String("question-" + RQquestnum));
+                    $(String("#question-" + RQquestnum)).fadeOut(400);
+
+                    setTimeout(function(){          /*El resto de la función tiene que ir dentro del setTimeout para que todas las lineas se ejecuten después del delay y no se salte a las demás durante el delay */
+                        getquest2remove.remove();
+
+                        howmanyquestleft = document.getElementById("append-quest-here").childElementCount;
+
+                        for (j = 1; j < howmanyquestleft; j++) {
+
+                            $(String("#append-quest-here>div:nth-child(" + j + ")")).attr("id", String("question-" + j));
+
+                            ReWriteTags(j);
+
+                        }
+
+                        if (howmanyquestleft<2){
+                            ShowThumbnails();
+                            $(".my-quest-panel-ans").show();
+                        }
+
+
+                    },401);
+
+
+
+
+                }
+
+
+
+        }
+
+    </script>
+
+
+
+    <!---------------------- Function ReOrder Question ------------------------>
+
+    <script type="text/javascript">
+
+        function ReorderQuestion(RQquestnum,direction){
+
+        var quest2move;
+        var quest2displace;
+        var refid;
+        var nextid;
+        var nextpos;
+
+            quest2move = document.getElementById(String("question-" + RQquestnum));
+
+            if (direction == "up" && RQquestnum > 1){
+
+                quest2displace = quest2move.previousSibling;
+                $("#question-" + RQquestnum).fadeOut(400);
+                setTimeout(function(){
+                    quest2move.parentNode.insertBefore(quest2move,quest2displace);
+                    refid = quest2move.id;
+                    nextid = quest2displace.id;
+                    nextpos = RQquestnum - 1;
+                },405);
+
+            }else if (direction == "down" &&  RQquestnum < (document.getElementById("append-quest-here").childElementCount -1) ){
+
+                quest2displace = quest2move.nextSibling;
+                $("#question-" + RQquestnum).fadeOut(400);
+                setTimeout(function(){
+                    quest2displace.parentNode.insertBefore(quest2displace,quest2move);
+                    refid = quest2move.id;
+                    nextid = quest2displace.id;
+                    nextpos = RQquestnum + 1;
+                },405);
+
+            }
+
+            if (quest2displace){
+
+                 setTimeout(function(){
+                     $(String("#append-quest-here>div:nth-child(" + nextpos + ")")).attr("id", nextid);
+                     $(String("#append-quest-here>div:nth-child(" + RQquestnum + ")" )).attr("id", refid);
+                     javascript:ReWriteTags(nextpos);
+                     javascript:ReWriteTags(RQquestnum);
+                    $("#question-" + nextpos).fadeIn(1000);
+                 },410);
+
+                 setTimeout(function(){
+                 autoScrollQuestUpDown(nextid);
+                 },410);
+
+            }
+
+        }
+
+    </script>
+
+
+    <!---------------------- Function ReWrite Tags ------------------------>
+
+    <script type="text/javascript">
+
+        function ReWriteTags(questnum){
+            var numopts = 0;
+            var numnewopts = 0;
+
+            $(String("#question-" + questnum + " .num-quest-label div h3")).attr("id",String("label-" + questnum));
+            $(String("#question-" + questnum + " .num-quest-label div h3")).text(String("Q" + questnum));        /*document.getElementById(String("label-" + questnum)).innerHTML = String("Q" + questnum);*/
+            $(String("#question-" + questnum +  " .my-quest-close-but div a")).attr("href", String("javascript:RemoveQuestion(" + questnum + ")"));
+            $(String("#question-" + questnum +  " .my-quest-move-but div:first-child a")).attr("href", String("javascript:ReorderQuestion(" + questnum + ",'up')"));
+            $(String("#question-" + questnum +  " .my-quest-move-but div:nth-child(2) a")).attr("href", String("javascript:ReorderQuestion(" + questnum + ",'down')"));
+
+            var questclass = document.getElementById(String("question-" + questnum)).className;
+
+            if (questclass == "row mult-choice"){
+                $(String("#question-" + questnum +  " .my-quest-panel-ans>div:first-child")).attr("id", String("mc-append-opt-here-" + questnum));
+                $(String("#question-" + questnum + " .my-quest-panel-optbut div p a")).attr("href",String("javascript:AddOption(" + questnum + ")"));
+
+                numopts = document.getElementById(String("mc-append-opt-here-" + questnum)).childElementCount;
+                numnewopts = numopts -2;
+
+                var x = 0;
+                for (i=0; i < numopts; i++){
+                    x++;
+                    $(String("#mc-append-opt-here-" + questnum + ">div:nth-child(" + x + ")")).attr("id",String("mc-option-" + x + "-q-" + questnum));
+                }
+
+                if (numnewopts > 0){
+                    x = 2;
+                    for (i=0; i < numopts; i++){
+                        x++;
+                        $(String("#mc-option-" + x + "-q-" + questnum + ">span:last-child")).attr("id",String("removeopt-" + x + "-q-" + questnum));
+                        $(String("#mc-option-" + x + "-q-" + questnum + ">span:last-child a")).attr("href",String("javascript:RemoveOption(" + x + "," + questnum + ")"));
+                    }
+                }
+
+            } else if (questclass == "row true-false"){
+                $(String("#question-" + questnum + " .my-btn-true span input")).attr("name", String("true-false" + questnum));
+                $(String("#question-" + questnum + " .my-btn-false span input")).attr("name", String("true-false" + questnum));
+            } else if (questclass == "row mult-choice-pic"){
+                $(String("#question-" + questnum +  " .my-quest-panel-ans>div:first-child>div:first-child")).attr("id", String("mcp-append-opt-here-" + questnum));
+                $(String("#question-" + questnum +  " .my-quest-panel-ans div .fileUpload input")).attr("id", String("mcp-add-pics-" + questnum));
+                $(String("#mcp-add-pics-" + questnum)).attr("onchange","UploadImage(" + questnum + ")");
+                /*document.getElementById(String("mcp-add-pics-" + AQquestnum)).addEventListener("change", function () {UploadImage(questnum);});*/
+                numopts = document.getElementById(String("mcp-append-opt-here-" + questnum )).childElementCount;
+
+
+                var x = 0;
+                for (i=0; i < numopts; i++){
+                    x++;
+                    $(String("#mcp-append-opt-here-" + questnum + ">div:nth-child(" + x + ")")).attr("id",String("mcp-option-" + x + "-q-" + questnum));
+                    $(String("#mcp-option-" + x + "-q-" + questnum + ">span>input")).attr("name",String("mcp-pic-" + questnum));
+                    $(String("#mcp-option-" + x + "-q-" + questnum + " .mult-pic-add-opt>div:first-child")).attr("id",String("mcp-picHolder-" + x + "-q-" + questnum));
+                    $(String("#mcp-picHolder-" + x + "-q-" + questnum + ">a")).attr("href", String("javascript:RemoveOption(" + x + "," + questnum + ")"));
+
+
+                }
+
+/*CHECAR QUE TODAS LAS TAGS FUNCIONEN AL MOVER O BORRAR UNA PREGUNTA... CAMBIAR EL ADD EVENT LISTENER POR OTRA COSA... Si no se agregaran otros event listeners cada vez que mueva la pregunta o borre otra.*/
+
+            }
+
+        }
+
+    </script>
+
+
+    <!---------------------- Add Option from Questions Javascript ------------------------>
+
+
+    <script type="text/javascript">
+
+        function AddOption(numquest) {
+
+            /* if(! document.getElementById && document.createElement) { return; }*/
+
+            var div2appendinto = document.getElementById(String("mc-append-opt-here-"+ numquest));
+            var nextoptnum = div2appendinto.childElementCount;
+            nextoptnum++;
+
+            $("#mc-append-opt-here-0>div:first-child").clone().appendTo(String("#mc-append-opt-here-" + numquest));
+            $(String("#mc-append-opt-here-" + numquest + ">div:last-child")).attr("id",String("mc-option-" + nextoptnum + "-q-" + numquest));
+            $(String("#mc-append-opt-here-" + numquest + ">div:last-child>span:first-child")).text(String("Option " + nextoptnum));
+            $(String("#mc-option-" + nextoptnum + "-q-" + numquest + ">span:last-child")).attr("id",String("removeopt-" + nextoptnum + "-q-" + numquest));
+
+            var iconremove = document.createElement("span");
+            var link4funct = document.createElement("a");
+            iconremove.className = "glyphicon glyphicon-remove";
+
+            var span2appendinto = document.getElementById(String("removeopt-" + nextoptnum + "-q-" + numquest));
+
+
+            link4funct.href = String("javascript:RemoveOption(" + nextoptnum + "," + numquest + ")");
+
+            link4funct.appendChild(iconremove)
+            span2appendinto.appendChild(link4funct);
+
+        }
+
+    </script>
+
+    <!---------------------- Remove Option from Questions Javascript ------------------------>
+
+    <script type="text/javascript">
+
+        function RemoveOption(opt,quest) {
+            var x;
+            var getelem2count;
+            var hmanynewopt;
+            var getopt2remove;
+
+            if (document.getElementById(String("question-" + quest)).className == "row mult-choice"){
+                x=2;
+                getopt2remove = document.getElementById(String("mc-option-" + opt + "-q-" + quest));
+
+                getopt2remove.remove();
+
+                getelem2count = document.getElementById("mc-append-opt-here-" + quest);
+                hmanynewopt = getelem2count.childElementCount-2;
+
+
+                for (i = 0; i < hmanynewopt; i++) {
+                    x++;
+                    $(String("#mc-append-opt-here-" + quest + " div:nth-child(" + x + ") span:contains('Option')")).text(String("Option " + x));
+                    $(String("#mc-append-opt-here-" + quest + " div:nth-child(" + x + ")")).attr("id", String("mc-option-" + x + "-q-" + quest ));
+                    $(String("#mc-option-" + x + "-q-" + quest + ">span:last-child")).attr("id",String("removeopt-" + x + "-q-" + quest));
+                    $(String("#mc-append-opt-here-" + quest + " div:nth-child(" + x + ") span a")).attr("href", String("javascript:RemoveOption(" +  x + "," + quest + ")"));
+                }
+            }else if (document.getElementById(String("question-" + quest)).className == "row mult-choice-pic"){
+                x=0;
+                getopt2remove = document.getElementById(String("mcp-option-" + opt + "-q-" + quest));
+                $(String("#mcp-option-" + opt + "-q-" + quest)).fadeOut(500);
+
+                setTimeout(function(){
+                    getopt2remove.remove();
+
+                    getelem2count = document.getElementById("mcp-append-opt-here-" + quest);
+                    hmanynewopt = getelem2count.childElementCount;
+
+                    for (i = 0; i < hmanynewopt; i++) {
+                        x++;
+                        $(String("#mcp-append-opt-here-" + quest + " div:nth-child(" + x + ") span:contains('Option')")).text(String("Option " + x));
+                        $(String("#mcp-append-opt-here-" + quest + " div:nth-child(" + x + ")")).attr("id", String("mcp-option-" + x + "-q-" + quest ));
+                        $(String("#mcp-option-" + x + "-q-" + quest + " .mult-pic-add-opt>div:first-child")).attr("id",String("mcp-picHolder-" + x + "-q-" + quest));
+                        $(String("#mcp-picHolder-" + x + "-q-" + quest + ">a")).attr("href", String("javascript:RemoveOption(" + x + "," + quest + ")"));
+                    }
+                    if (hmanynewopt >2){
+                        $(String("#question-" + quest + " .fileUpload")).removeAttr("disabled","disabled");
+                    }
+
+                },501);
+            }
+        }
+
+    </script>
+
+
+    <!---------------------- Hide / Show Thumbnails Javascript ------------------------>
+
+
+    <script type="text/javascript">
+
+        function HideThumbnails(type){
+            $(".my-panel-thumbnails").hide(0,AddQuestion(type));
+            $("#buttons-next-quest").removeAttr("hidden");
+            $("#my-panel-title-act-but").removeAttr("hidden");
+
+        }
+        function ShowThumbnails(){
+            $(".my-panel-thumbnails").show();
+            $("#buttons-next-quest").attr("hidden","hidden");
+            $("#my-panel-title-act-but").attr("hidden","hidden");
+        }
+
+    </script>
+
+
+    <!---------------------- Toggle Collapse Javascript ------------------------>
+
+    <script type="text/javascript">
+
+        function ToggleCollapseQuest(){
+            $(".my-quest-panel-ans").toggle();
+
+            if (document.getElementById("act-but-toggle-collapse").className == "glyphicon glyphicon-menu-up") {
+                document.getElementById("act-but-toggle-collapse").className = "glyphicon glyphicon-menu-down";
+            }else {
+                document.getElementById("act-but-toggle-collapse").className = "glyphicon glyphicon-menu-up";
+            }
+        }
+
+    </script>
+
+
+    <!---------------------- AutoScroll NEXT QUESTION Javascript ------------------------>
+
+
+    <script type="text/javascript">
+
+        function autoScrollToNextQuest(questnum){
+
+            $('html, body').animate({
+                scrollTop: $("#buttons-next-quest").offset().top
+            }, 600);
+            var elem2focus = document.getElementsByClassName("input-quest")[questnum+3];
+            elem2focus.focus();
+
+        }
+
+    </script>
+
+    <!---------------------- AutoScroll MOVE UP DOWN Javascript ------------------------>
+
+
+    <script type="text/javascript">
+
+        function autoScrollQuestUpDown(id){
+
+            $('html, body').animate({
+                scrollTop: $(String("#" + id)).offset().top - 239
+            }, 300);
+
+        }
+
+    </script>
+
+  <!-- <script type="text/javascript">
+
+        function UploadImage(option,question) {
+
+            var fileInput = document.getElementById(String("mcp-pic-" + option + "-q-" + question));
+            var fileDisplayArea = document.getElementById(String("mcp-picHolder-" + option + "-q-" + question));
+
+            fileInput.addEventListener('change', function(e) {
+
+                var file = fileInput.files[0];
+                var imageType = /image.*/;
+
+                if (file.type.match(imageType)) {
+                    var reader = new FileReader();
+
+                    reader.onload = function(e) {
+
+                        // Create a new image.
+                        var img = new Image();
+                        // Set the img src property using the data URL.
+                        img.src = reader.result;
+                        // Add the image to the page.
+                        fileDisplayArea.appendChild(img);
+                        fileDisplayArea.removeAttribute("hidden");
+                        $(String("#mcp-option-" + option + "-q-" + question + " .fileUpload")).css("display","none");
+                    }
+
+                    reader.readAsDataURL(file);
+                } else {
+                    fileDisplayArea.innerHTML = "File not supported!";
+                }
+            });
+        }
+
+    </script>-->
+
+    <script type="text/javascript">
+
+        function UploadImage(question) {
+
+            var fileInput = document.getElementById(String("mcp-add-pics-" + question));
+            var currNumOfOpt = document.getElementById(String("mcp-append-opt-here-" + question)).childElementCount;
+            window.alert(currNumOfOpt);
+
+            /*fileInput.addEventListener('change', function() {*/
+
+                var fileDisplayArea;
+
+
+                                                function setup_reader(file,picHolder,opt) {
+                                                    var reader = new FileReader();
+                                                    reader.onload = function(e) {
+                                                        var img = new Image();
+                                                        // Set the img src property using the data URL.
+                                                        img.src = e.target.result;
+                                                        // Add the image to the page.
+                                                        picHolder.appendChild(img);
+                                                        $(String("#mcp-option-" + opt + "-q-" + question)).removeAttr("hidden");
+                                                    }
+                                                    reader.readAsDataURL(file);
+                                                }
+                    var newNumOpt = fileInput.files.length + currNumOfOpt;
+                    window.alert(newNumOpt);
+
+                    if (newNumOpt < 5) {
+                        for (i=0; i < fileInput.files.length;i++){
+                            currNumOfOpt++;
+                            var file = fileInput.files[i];
+                            var imageType = /image.*/;
+
+                            if (file.type.match(imageType)) {
+                                    $("#mcp-option-0-q-0").clone().appendTo(String("#mcp-append-opt-here-" + question));
+                                    $(String("#mcp-append-opt-here-" + question + ">div:nth-child(" + currNumOfOpt + ")")).attr("id",String("mcp-option-" + currNumOfOpt + "-q-" + question));
+                                    $(String("#mcp-option-" + currNumOfOpt + "-q-" + question + ">span>input")).attr("name",String("mcp-pic-" + question));
+                                    $(String("#mcp-option-" + currNumOfOpt + "-q-" + question + " .mult-pic-add-opt>div:first-child")).attr("id",String("mcp-picHolder-" + currNumOfOpt + "-q-" + question));
+                                    $(String("#mcp-option-" + currNumOfOpt + "-q-" + question + ">span:nth-child(2)")).text(String("Option " + currNumOfOpt));
+                                    $(String("#mcp-picHolder-" + currNumOfOpt + "-q-" + question + ">a")).attr("href", String("javascript:RemoveOption(" + currNumOfOpt + "," + question + ")"));
+
+
+                                fileDisplayArea = document.getElementById(String("mcp-picHolder-" + currNumOfOpt + "-q-" + question));
+                                }
+
+                                setup_reader(file,fileDisplayArea,currNumOfOpt)
+
+                        }
+
+                    }else{
+                        window.alert("You may only upload a maximum of 4 images for each question. Please, try again.")
+
+                    }
+
+                    if (document.getElementById(String("mcp-append-opt-here-" + question)).childElementCount > 3){
+                        $(String("#question-" + question + " .fileUpload")).attr("disabled","disabled");
+
+                    }
+        /*});*/
+        }
+
+    </script>
+
+
+
+
+
+
+</body>
+</html>

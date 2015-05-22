@@ -1,0 +1,282 @@
+/*!------------------------------------------------------------------------------------------------------------------------------*/
+/*!------------------------------------------------------------------------------------------------------------------------------*/
+/*!------------------------------------------------------------------------------------------------------------------------------*/
+/*!------------------------------------------------------------------------------------------------------------------------------*/
+/*!----------------- NEW ASSESSMENT --------------------*/
+
+p, h1, h2, h3, li {
+    font-weight: 200;
+}
+
+.my-body{
+    background: #ffffff;
+}
+
+.my-panel-title{
+    position: fixed; /* Ultimo Cambio*/
+    top:60px;        /**/
+    z-index: 1000;   /**/
+    /*margin-bottom: 100px;*/
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.my-panel-title .row{
+    background-color: #ffffff;
+    padding-left: 20px;
+    box-shadow: 0px 0px 10px 0px #333333;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+#my-panel-title-act-but{
+    position:fixed;
+    top: 230px;
+    left: 60px;
+    width:10%;
+    padding: 0px;
+}
+
+
+#my-panel-title-act-but button{
+    padding: 5px 5px 5px 5px;
+    background-color: white;
+    border: 0px;
+}
+
+#my-panel-title-act-but button span{
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    border: 0px;
+    font-size: 20px;
+}
+
+
+
+.my-panel-title h1{
+    font-size: 50px;
+    color: #333333;
+}
+
+
+.my-panel-thumbnails{
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+    top: 245px;  /*Ultimo Cambio*/
+    position:fixed;
+}
+
+#new-assess-start h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+#new-assess-thumbnails-start{
+    padding: 50px 180px 0px 180px;
+}
+#new-assess-thumbnails-start .thumbnail{
+    padding-top: 30px;
+    border-radius: 7px;
+}
+
+#new-assess-thumbnails-start .thumbnail>a>img{
+    width: 50%;
+}
+
+
+#new-assess-thumbnails-start .caption h3{
+    font-size: 17px;
+    text-align: center;
+}
+
+#new-assess-thumbnails-start .caption p{
+    font-size: 13px;
+}
+
+.my-quest-panel-optbut {
+    margin-top: -10px;
+    padding-left: 100px;
+}
+
+#append-quest-here{
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 245px;
+}
+
+.my-quest-panel-ans div>span:last-child {
+    width: 39px;
+}
+
+.my-quest-panel-ans div[id*="append-opt-here"] {
+    padding-left: 100px;
+    padding-top: 0px;
+}
+
+
+.mult-choice-pic .my-quest-panel-ans .panel-body:first-child{
+    padding: 0px;
+}
+.mult-choice-pic .my-quest-panel-ans .panel-body .row{
+    padding-right: 50px;
+}
+
+
+.true-false .my-quest-panel-ans{
+    padding-left: 100px;
+}
+
+
+.my-quest-panel-ans{
+    padding-top: 15px;
+}
+
+.my-quest-panel-ans>p{
+    padding-left: 90px;
+    color: #c9c2c2;
+}
+
+.my-btn-true p, .my-btn-false p{
+    width:100px;
+}
+
+.my-btn-true p, .my-btn-false p{
+    text-align: left;
+    background-color: white;
+    color: black;
+    width:70px;
+}
+
+
+.num-quest-label div{
+    padding-right: 60px;
+}
+
+.num-quest-label h3{
+    font-size: 60px;
+    margin-top: -10px;
+    color:#707070;
+    text-align: right;
+
+}
+
+.num-quest-label, .my-quest-panel, .my-quest-move-but{
+    padding-left: 0px;
+    padding-right:0px;
+
+}
+
+.my-quest-move-but{
+    width:auto;
+}
+.my-quest-move-but .btn-default{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left: 0px;
+    padding:3px 10px 3px 10px;
+}
+
+.my-quest-move-but span{
+    font-size: 12px;
+}
+
+#buttons-next-quest{
+    margin-bottom: 100px;
+}
+#new-assess-thumbnails-other-quest{
+    padding-right: 57px;
+    width:35%;
+    float:right;
+}
+
+#new-assess-thumbnails-other-quest .thumbnail{
+    border-radius: 7px;
+}
+
+
+
+.my-quest-close-but{
+    width:auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.my-quest-close-but .btn-default{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: 0px;
+}
+
+.true-false div .panel-default, .short-answer div .panel-default, .mult-choice div .panel-default, .mult-choice-pic div .panel-default, .true-false .panel-heading, .short-answer .panel-heading, .mult-choice .panel-heading, .mult-choice-pic .panel-heading {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.true-false .panel-heading{
+    border-radius: 0px;
+}
+
+
+.short-answer .panel-body{
+    padding-bottom: 3px;
+    padding-top: 10px;
+}
+
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    float:right;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.mult-pic-opt-panel>span{
+    padding-right: 10px;
+}
+.mult-pic-opt-panel span:nth-child(2){
+    font-size: 15px;
+}
+
+
+
+.mult-pic-add-opt{
+    padding: 10px 0px 20px 25px;
+}
+
+div[id*="mcp-picHolder"] img{
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 3px 3px 10px gray;
+    margin-bottom: 15px;
+}
+
+div[id*="mcp-picHolder"] a{
+    position: absolute;
+    left: 119px;
+    padding: 0px;
+}
+
+div[id*="mcp-picHolder"] a button{
+    padding:4px 6px 2px 6px;"
+}
+
+
+.mult-choice-pic .my-quest-panel-ans{
+    padding: 15px 0px 5px 0px;
+}
+
+
+
+
+

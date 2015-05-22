@@ -1,0 +1,136 @@
+
+/*!------------------------------------------------------------------------------------------------------------------------------*/
+/*!------------------------------------------------------------------------------------------------------------------------------*/
+/*!------------------------------------------------------------------------------------------------------------------------------*/
+/*!------------------------------------------------------------------------------------------------------------------------------*/
+/*!----------------- Log-In --------------------*/
+
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+body {
+    padding-top: 190px;
+    padding-bottom: 40px;
+    background-color: #eee;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+}
+
+
+
+/*!------------------------------------------------------------------------------------------------------------------------------*/
+/*!------------------------------------------------------------------------------------------------------------------------------*/
+/*!------------------------------------------------------------------------------------------------------------------------------*/
+/*!------------------------------------------------------------------------------------------------------------------------------*/
+/*!----------------- Other Log-In --------------------*/
+
+#body-cover{
+    padding:0px;
+    top:0px;
+    bottom:0px;
+    width: 100%;
+    background-color: #423c3c;
+}
+
+
+
+/*-------------------------------------------*/
+
+
+#my-body-cover{
+    position: absolute;
+    bottom:50px;
+    top: 60px;
+    background-color: #423c3c;
+    width: 100%;
+    padding: 150px 250px 50px 250px;
+}
+
+#my-title-cover{
+    text-align: center;
+}
+
+#my-title-cover h1{
+    color: white;
+    font-size: 50px;
+}
+
+#my-subtitle-cover{
+    text-align: center;
+    padding: 15px 200px 15px 200px;
+}
+
+#my-subtitle-cover p{
+    color: white;
+    font-size: 25px;
+}
+
+#my-signin{
+    padding-left: 60px;
+    padding-right: 60px;"
+}
+
+#my-signin label{
+    color: white;
+}
+#my-signin button{
+    padding: 3px 5px 3px 5px;
+}
+
+
+#inputEmail{
+    font-size: 15px;
+    padding: 4px 8px 4px 8px;
+    width: 100%;"
+}
+
+#inputPassword{
+    font-size: 15px;
+    padding: 4px 8px 4px 8px;
+    width: 100%;"
+}
+
+#my-footer-cover{
+    background-color: #423c3c;
+    width: 100%;
+    padding-bottom: 25px;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;"
+}
+

@@ -1,0 +1,270 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="../pruebaCSS/jquery-ui.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/NewAssessment.css">
+    <script src="../prueba-js/jquery.js"></script>
+    <script src="../prueba-js/jquery-ui.js"></script>
+    <script src="../prueba-js/jQueryRotateCompressed.2.2.js" type="text/javascript"></script>
+
+
+    <!---------------------------Draggable Style---------------------->
+
+    <style>
+        .draggable { width: 180px; position:absolute;}
+    </style>
+
+    <!---------------------------Line Between Divs Style---------------------->
+
+    <style>
+        div[id^="line"] {
+            width: 100px;
+            height: 1px;
+            border: solid thin red;
+            position: absolute;
+            background-color: red;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+
+<body id="body">
+
+
+
+
+<div  id="mcp-question-0" class="row mult-choice-pic" style="margin-top: 150px; padding-right: 80px;">
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-2 num-quest-label">
+        <div>
+            <h3>Q1</h3>
+        </div>
+    </div>
+    <div class="col-md-1 my-quest-close-but">
+        <div>
+            <a href=""><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-remove"></span></button></a>
+        </div>
+    </div>
+    <div class="col-md-8 my-quest-panel">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="input-group">
+                    <span class="input-group-addon">Question</span>
+                    <input type="text" class="form-control input-quest" placeholder="Write your question here...">
+                </div>
+            </div>
+
+            <div class="my-quest-panel-ans" style="padding: 0px;">
+                <div class="panel-body">
+                    <div class="col-md-12 mult-choice-pic" style="padding: 15px 0px 0px 0px;">
+                            <div class="col-md-12" id="append-labels-here">
+                            </div>
+                            <div class="col-md-12" id="append-lines-here">
+                            </div>
+                            <div id="fileDisplayArea" style="border-radius: 7px; padding-left: 80px; padding-right: 80px;">
+                            </div>
+                    </div>
+                </div>
+                <div class="panel-body" style="padding: 0px;">
+                    <div class="fileUpload btn btn-primary" style="margin:20px;">
+                        <span>Upload Image</span>
+                        <input type="file" id="fileInput" class="upload">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-1 my-quest-move-but">
+        <div>
+            <a href="#"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-arrow-up"></span></button></a>
+        </div>
+        <div >
+            <a href="#"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-arrow-down"></span></button></a>
+
+        </div>
+    </div>
+</div>
+
+<div class="draggable" id="label-0-q-0" hidden="hidden">
+    <div class="input-group">
+        <span class="input-group-addon" style="padding: 1px 7px 1px 7px; font-size:12px; cursor:move; font-weight:600;">A</span>
+        <input type="text" class="form-control" placeholder="Write an option..." style="height:20px; font-size: 12px;">
+        <span class="input-group-addon" style="padding: 0px; width:20px; font-size:12px; background-color:white;">
+            <a href="#">
+                <span class="glyphicon glyphicon-remove"></span>
+            </a>
+        </span>
+    </div>
+</div>
+
+
+
+
+
+
+<script type="text/javascript">
+
+    window.onload = function() {
+        var fileInput = document.getElementById('fileInput');
+        var fileDisplayArea = document.getElementById('fileDisplayArea');
+
+        fileInput.addEventListener('change', function(e) {
+
+            var file = fileInput.files[0];
+            var imageType = /image.*/;
+
+            if (file.type.match(imageType)) {
+                var reader = new FileReader();
+
+                reader.onload = function(e) {
+
+                    // Create a new image.
+                    var img = new Image();
+                    // Set the img src property using the data URL.
+                    img.src = reader.result;
+                    img.style.borderRadius = "10px";
+                    img.style.width = "100%";
+
+                    // Add the image to the page.
+                    fileDisplayArea.appendChild(img);
+                    $(".my-quest-panel-ans>div").css({"paddingTop":40});
+
+                    fileDisplayArea.removeAttribute("hidden");
+
+                    img.addEventListener("dblclick", function () {drawLabel(img)});
+
+                }
+
+                reader.readAsDataURL(file);
+            } else {
+                fileDisplayArea.innerHTML = "File not supported!";
+            }
+        });
+    }
+</script>
+
+
+<script type="text/javascript">
+
+function drawLabel(image){
+    var origin = getClickPosition(image);
+    var xclicked = origin.x;
+    var yclicked = origin.y;
+
+    $("#label-0-q-0").clone().appendTo("#append-labels-here");
+    var aux = document.getElementById("append-labels-here").childElementCount;
+    $("#mcp-question-0 #label-0-q-0").attr("id",String("label-" + aux + "-q-1"));
+    var chr = String.fromCharCode(64 + aux);
+    $(String("#label-" + aux + "-q-1>div:first-child>span:first-child")).text(chr);
+
+    var line = document.createElement('div');
+               document.getElementById("append-lines-here").appendChild(line);
+
+    $(String("#append-lines-here>div:nth-child(" + aux + ")")).attr("id",String("line-" + aux + "-q-1"));
+    $(String("#label-" + aux + "-q-1")).css({"top":yclicked - 9 ,"left":xclicked + 140});
+    $(String("#label-" + aux + "-q-1")).removeAttr("hidden");
+
+    var x2 = parseInt($(String("#label-" + aux + "-q-1")).css("left")) - 90;
+    $(String("#line-" + aux + "-q-1")).offset({top: yclicked + 261, left: xclicked + 413});
+    $(String("#line-" + aux + "-q-1")).width(Math.abs(x2-xclicked));
+
+
+    $(function() {
+        $(String("#label-" + aux + "-q-1") ).draggable({containment:$(".my-quest-panel-ans"),
+            drag: function(){
+                var x1 = xclicked;
+                var y1 = yclicked + 40;
+                var x2 = parseInt($(String("#label-" + aux + "-q-1")).css("left"));
+                var y2 = parseInt($(String("#label-" + aux + "-q-1")).css("top")) + 48 ;
+
+                if (x2 > x1 + 100 ){
+                    x2 = x2 - 90;
+                } else if (x2 <= x1 + 120 && x2 >= x1 - 120){
+                    if (y1 > y2 + 20 ){
+                        y2 = y2 + 18;
+                        x2 = x2 + 10
+                    } else if (y1 < y2 -20){
+                        y2 = y2 - 18;
+                        x2 = x2 + 10
+                    }
+                } else {
+                    x2 = x2 + 105
+                }
+
+                var hypotenuse = Math.sqrt((x1-x2)*(x1-x2) + (y1-y2)*(y1-y2));
+                var angle = Math.atan2((y1-y2), (x1-x2)) *  (180/Math.PI);
+
+                if(angle >= 90 && angle < 180){
+                    y1 = y1 - (y1-y2);
+                }
+                if(angle > 0 && angle < 90){
+                    x1 = x1 - (x1-x2);
+                    y1 = y1 - (y1-y2);
+                }
+                if(angle <= 0 && angle > -90){
+                    x1 = x1 - (x1-x2);
+                }
+
+                $(String("#line-" + aux + "-q-1")).queue(function(){
+                    $(this).offset({top: y1 + 221, left: x1 + 413});
+                    $(this).dequeue();
+                }).queue(function(){
+                    $(this).width(hypotenuse);
+                    $(this).dequeue();
+                }).queue(function(){
+                    $(this).rotate(angle);
+                    $(this).dequeue();
+                });
+
+            },
+
+            start: function(){
+                $(String("#label-" + aux + "-q-1")).css("opacity",".5");
+            },
+            stop: function(){
+                $(String("#label-" + aux + "-q-1")).css("opacity","1");
+
+            }
+
+        });
+    });
+
+}
+
+
+function getClickPosition(image) {
+    var parentPosition = getPosition(image);
+    var xPosition = event.clientX - parentPosition.x;
+    var yPosition = event.clientY - parentPosition.y;
+
+return {x: xPosition , y: yPosition}
+
+}
+
+
+function getPosition(element) {
+    var xPosition = 0;
+    var yPosition = 0;
+
+     while (element) {
+         xPosition += (element.offsetLeft - element.scrollLeft + element.clientLeft);
+         yPosition += (element.offsetTop - element.scrollTop + element.clientTop);
+         element = element.offsetParent;
+     }
+     return { x: xPosition, y: yPosition };
+ }
+</script>
+
+
+</body>
+</html>

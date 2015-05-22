@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2581c98a-d399-481b-b480-8d3b1c39b141" name="Default" comment="" />
+    <ignored path="Test.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Test" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="NewAssessment.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTMLs/NewAssessment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="18" selection-start="2767" selection-end="2767" vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="14460">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Experiment-Draggable Labels.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/prueba-htmls/Experiment-Draggable Labels.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="234" column="71" selection-start="8502" selection-end="8502" vertical-scroll-proportion="5.3834357" vertical-offset="0" max-vertical-offset="4125">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Experiment-Line between Divs.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prueba-htmls/Experiment-Line between Divs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="13" selection-start="994" selection-end="994" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1830">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/css/MyCss" />
+        <option value="$PROJECT_DIR$/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/Login.html" />
+        <option value="$PROJECT_DIR$/css/cover.css" />
+        <option value="$PROJECT_DIR$/NewLogin.html" />
+        <option value="$PROJECT_DIR$/css/mycss.css" />
+        <option value="$PROJECT_DIR$/css/LogIn.css" />
+        <option value="$PROJECT_DIR$/Home.html" />
+        <option value="$PROJECT_DIR$/css/Home.css" />
+        <option value="$PROJECT_DIR$/css/NavBar.css" />
+        <option value="$PROJECT_DIR$/css/NewAssessment.css" />
+        <option value="$PROJECT_DIR$/NewAssessment.html" />
+        <option value="$PROJECT_DIR$/Prueba 2.html" />
+        <option value="$PROJECT_DIR$/Prueba.html" />
+        <option value="$PROJECT_DIR$/Test New Stuff/Prueba.html" />
+        <option value="$PROJECT_DIR$/Test New Stuff/htmls/Prueba 2.html" />
+        <option value="$PROJECT_DIR$/newstuff/htmls/Prueba 2.html" />
+        <option value="$PROJECT_DIR$/newstuff/htmls/Prueba.html" />
+        <option value="$PROJECT_DIR$/prueba-htmls/Prueba.html" />
+        <option value="$PROJECT_DIR$/prueba-htmls/Draggable.html" />
+        <option value="$PROJECT_DIR$/HTMLs/NewAssessment.html" />
+        <option value="$PROJECT_DIR$/prueba-htmls/Experiment.html" />
+        <option value="$PROJECT_DIR$/prueba-htmls/Experiment-Line between Divs.html" />
+        <option value="$PROJECT_DIR$/prueba-htmls/Experiment-Draggable Labels.html" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prueba-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prueba-htmls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTMLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="settings.github" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/newstuff/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Test New Stuff" />
+      <recent name="$PROJECT_DIR$/Test New Stuff/htmls" />
+      <recent name="$PROJECT_DIR$/HTMLs" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2581c98a-d399-481b-b480-8d3b1c39b141" name="Default" comment="" />
+      <created>1428547819030</created>
+      <updated>1428547819030</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="773" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20625" sideWeight="0.85085225" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20625" sideWeight="0.14914773" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32802126" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/prueba-htmls/Draggable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="221" column="17" selection-start="6044" selection-end="7766" vertical-scroll-proportion="0.0" vertical-offset="2837" max-vertical-offset="3525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/NewAssessment.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="225" column="0" selection-start="4323" selection-end="4323" vertical-scroll-proportion="0.0" vertical-offset="3375" max-vertical-offset="4020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLs/NewAssessment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="506" column="25" selection-start="22882" selection-end="22882" vertical-scroll-proportion="0.0" vertical-offset="5715" max-vertical-offset="8955">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/NewAssessment.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="0" selection-start="2517" selection-end="2517" vertical-scroll-proportion="0.0" vertical-offset="1860" max-vertical-offset="3360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/NavBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="42" selection-start="695" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1605" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLs/NewAssessment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="500" column="37" selection-start="22609" selection-end="22609" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8955">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/NewAssessment.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="1" selection-start="2407" selection-end="2407" vertical-scroll-proportion="0.0" vertical-offset="1710" max-vertical-offset="3360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/NavBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="42" selection-start="695" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1605" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLs/NewAssessment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="620" column="0" selection-start="27087" selection-end="27087" vertical-scroll-proportion="0.0" vertical-offset="6675" max-vertical-offset="6675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/NewAssessment.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="17" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="3285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/NavBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="42" selection-start="695" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1605" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLs/NewAssessment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="620" column="0" selection-start="27087" selection-end="27087" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/NewAssessment.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="17" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="3285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/NavBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="42" selection-start="695" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1605" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLs/NewAssessment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="600" column="75" selection-start="26761" selection-end="26761" vertical-scroll-proportion="0.0" vertical-offset="6570" max-vertical-offset="6570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/NewAssessment.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="17" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="3285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/NavBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="42" selection-start="695" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1605" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLs/NewAssessment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="231" column="0" selection-start="11967" selection-end="15248" vertical-scroll-proportion="0.0" vertical-offset="3465" max-vertical-offset="9090">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/NewAssessment.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="29" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="2880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/NavBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="42" selection-start="695" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1605" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLs/NewAssessment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="403" column="42" selection-start="18578" selection-end="18578" vertical-scroll-proportion="0.0" vertical-offset="6906" max-vertical-offset="7845">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/NewAssessment.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="19" selection-start="1403" selection-end="1403" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="3900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/LogIn.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="0" selection-start="3127" selection-end="3127" vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="2130" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLs/NewAssessment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="37" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/NewAssessment.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="202" column="0" selection-start="4147" selection-end="4147" vertical-scroll-proportion="0.0" vertical-offset="3030" max-vertical-offset="3225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/LogIn.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="0" selection-start="3127" selection-end="3127" vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="2130" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLs/NewAssessment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="433" column="13" selection-start="20526" selection-end="20526" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLs/Login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="8" selection-start="2803" selection-end="2803" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLs/Home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="7" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1635" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLs/NewAssessment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="202" column="0" selection-start="8542" selection-end="8542" vertical-scroll-proportion="0.0" vertical-offset="3030" max-vertical-offset="3225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLs/Login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="8" selection-start="2803" selection-end="2803" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLs/Home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="7" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1635" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLs/NewAssessment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLs/Login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="46" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.0" vertical-offset="267" max-vertical-offset="1065" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-17.507023" vertical-offset="12465" max-vertical-offset="98850" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/cover.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="20" selection-start="1744" selection-end="1744" vertical-scroll-proportion="2.1523669" vertical-offset="0" max-vertical-offset="2535" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLs/NewLogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="37" selection-start="653" selection-end="653" vertical-scroll-proportion="0.1380368" vertical-offset="225" max-vertical-offset="1185" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="750" column="9" selection-start="11317" selection-end="11317" vertical-scroll-proportion="0.33284023" vertical-offset="11025" max-vertical-offset="14055" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/dashboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.44378698" vertical-offset="300" max-vertical-offset="1665" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/LogIn.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="0" selection-start="3127" selection-end="3127" vertical-scroll-proportion="3.0177515" vertical-offset="0" max-vertical-offset="2130" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLs/Home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="14" selection-start="2212" selection-end="2212" vertical-scroll-proportion="1.1032864" vertical-offset="0" max-vertical-offset="1695" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/Home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.110946745" vertical-offset="0" max-vertical-offset="720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/NavBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="42" selection-start="695" selection-end="702" vertical-scroll-proportion="0.22758621" vertical-offset="0" max-vertical-offset="1605" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="113324" selection-start="113489" selection-end="113489" vertical-scroll-proportion="0.084269665" vertical-offset="0" max-vertical-offset="712">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/NewAssessment.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="269" column="34" selection-start="5063" selection-end="5063" vertical-scroll-proportion="0.5997191" vertical-offset="3608" max-vertical-offset="4320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prueba-htmls/Prueba.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="6" selection-start="572" selection-end="625" vertical-scroll-proportion="0.47075605" vertical-offset="0" max-vertical-offset="701" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prueba-htmls/Draggable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="221" column="17" selection-start="6044" selection-end="7766" vertical-scroll-proportion="4.818314" vertical-offset="0" max-vertical-offset="3525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLs/Login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="32" selection-start="1592" selection-end="1674" vertical-scroll-proportion="0.71947676" vertical-offset="120" max-vertical-offset="1080" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prueba-htmls/Experiment-Line between Divs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="13" selection-start="994" selection-end="994" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1830">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLs/NewAssessment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="18" selection-start="2767" selection-end="2767" vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="14460">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prueba-htmls/Experiment-Draggable Labels.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="234" column="71" selection-start="8502" selection-end="8502" vertical-scroll-proportion="5.3834357" vertical-offset="0" max-vertical-offset="4125">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

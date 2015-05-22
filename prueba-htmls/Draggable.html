@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/NewAssessment.css" rel="stylesheet">
+    <script src="../prueba-js/jquery.js"></script>
+    <script src="../prueba-js/jquery-ui.js"></script>
+    <script src="../pruebaCSS/jquery-ui.css"></script>
+
+
+    <style type="text/css">
+
+        .fileUpload {
+            position: relative;
+            overflow: hidden;
+            margin: 10px;
+        }
+        .fileUpload input.upload {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+            cursor: pointer;
+            opacity: 0;
+        }
+
+        #fileDisplayArea input{
+            position: absolute;
+        }
+
+    </style>
+
+    <script>
+        $(function() {
+            $( "#draggable" ).draggable();
+        });
+    </script>
+
+</head>
+
+<body>
+
+        <div  id="mcp-question-0" class="row mult-choice-pic" style="margin-top: 150px; padding-right: 80px;">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-2 num-quest-label">
+                <div>
+                    <h3>Q1</h3>
+                </div>
+            </div>
+            <div class="col-md-1 my-quest-close-but">
+                <div>
+                    <a href=""><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-remove"></span></button></a>
+                </div>
+            </div>
+            <div class="col-md-8 my-quest-panel">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="input-group">
+                            <span class="input-group-addon">Question</span>
+                            <input type="text" class="form-control input-quest" placeholder="Write your question here...">
+                        </div>
+                    </div>
+
+                    <div class="my-quest-panel-ans">
+                        <div id="append-opt-here-0" class="panel-body">
+                                <div class="col-md-12 mult-choice-pic">
+                                    <div class="mult-choice-pic-holder">
+                                        <div id="fileDisplayArea" style="border-radius: 7px; padding-left: 80px; padding-right: 80px;">
+
+                                        </div>
+                                        <div class="fileUpload btn btn-primary" style="margin:20px;">
+                                            <span>Upload Image</span>
+                                            <input type="file" id="fileInput" class="upload">
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1 my-quest-move-but">
+                <div>
+                    <a href="#"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-arrow-up"></span></button></a>
+                </div>
+                <div >
+                    <a href="#"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-arrow-down"></span></button></a>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+<!-- <script type="text/javascript">
+
+    function UploadFile(){
+
+        var fileInput = document.getElementById('fileInput');
+        var fileDisplayArea = document.getElementById('fileDisplayArea');
+
+        var file = fileInput.files[0];
+        var imageType = /image.*/;
+
+        if (file.type.match(imageType)) {
+            var reader = new FileReader();
+
+            reader.onload = function Load() {
+
+                // Create a new image.
+                var img = new Image();
+                // Set the img src property using the data URL.
+                img.src = reader.result;
+
+                // Add the image to the page.
+                fileDisplayArea.appendChild(img);
+            }
+
+            reader.readAsDataURL(file);
+        } else {
+            fileDisplayArea.innerHTML = "File not supported!";
+        }
+
+    }
+</script>-->
+
+        <script type="text/javascript">
+
+                window.onload = function() {
+                    var fileInput = document.getElementById('fileInput');
+                    var fileDisplayArea = document.getElementById('fileDisplayArea');
+
+                    fileInput.addEventListener('change', function(e) {
+
+                        var file = fileInput.files[0];
+                        var imageType = /image.*/;
+
+                        if (file.type.match(imageType)) {
+                            var reader = new FileReader();
+
+                            reader.onload = function(e) {
+
+                                // Create a new image.
+                                var img = new Image();
+                                // Set the img src property using the data URL.
+                                img.src = reader.result;
+                                img.style.borderRadius = "10px";
+
+                                // Add the image to the page.
+                                fileDisplayArea.appendChild(img);
+
+                                fileDisplayArea.removeAttribute("hidden");
+
+                                img.addEventListener("dblclick", function () {getClickPosition(img,fileDisplayArea)});
+
+
+
+
+                            }
+
+                            reader.readAsDataURL(file);
+                        } else {
+                            fileDisplayArea.innerHTML = "File not supported!";
+                        }
+                    });
+                }
+
+            </script>
+
+
+        <script type="text/javascript">
+
+            function getClickPosition(image,inThisDiv) {
+                var parentPosition = getPosition(image);
+                var xPosition = event.clientX - parentPosition.x + 95;
+                var yPosition = event.clientY - parentPosition.y;
+
+                window.alert(String(yPosition + "," + xPosition));
+
+                var div4label = document.createElement("div");
+                div4label.className = "input-group";
+                var labelSpan = document.createElement("span");
+                labelSpan.className = "input-group-addon";
+                labelSpan.innerHTML = "Label 1";
+                var label = document.createElement("input");
+                label.type = "text";
+
+                div4label.appendChild(labelSpan);
+                div4label.appendChild(label);
+                div4label.id = "label1";
+                div4label.className = "draggable";
+                inThisDiv.appendChild(div4label);
+                inThisDiv.appendChild(image);
+                div4label.style.position = "absolute";
+                div4label.style.top = String(yPosition + "px");
+                div4label.style.left = String(xPosition + "px");
+
+
+
+            }
+
+            function getPosition(element) {
+                var xPosition = 0;
+                var yPosition = 0;
+
+                while (element) {
+                    xPosition += (element.offsetLeft - element.scrollLeft + element.clientLeft);
+                    yPosition += (element.offsetTop - element.scrollTop + element.clientTop);
+                    element = element.offsetParent;
+                }
+                return { x: xPosition, y: yPosition };
+            }
+        </script>
+
+
+
+
+
+
+</body>
+</html>

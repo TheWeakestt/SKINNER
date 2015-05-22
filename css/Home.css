@@ -1,0 +1,42 @@
+.my-panel-title{
+    margin: 60px 0px 100px 0px;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.my-panel-title div{
+    background-color: #ffffff;
+    padding-top: 15px;
+    padding-left: 20px;
+    box-shadow: 0px 0px 10px 0px #333333;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+
+.my-panel-title h1{
+    font-size: 50px;
+    color: #333333;
+
+}
+
+.my-panel-title h3{
+    color: #333333;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+
+#main-thumbnails .thumbnail>a>img{
+    width: 50%;
+}
+
+#main-thumbnails .caption{
+    height:120px;
+    width:270px;
+    padding-left: 50px;
+}
+
