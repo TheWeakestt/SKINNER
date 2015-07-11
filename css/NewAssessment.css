@@ -64,7 +64,7 @@ p, h1, h2, h3, li {
     width: 100%;
     padding-left: 80px;
     padding-right: 80px;
-    top: 245px;  /*Ultimo Cambio*/
+    top: 160px;  /*Ultimo Cambio*/
     position:fixed;
 }
 
@@ -74,7 +74,7 @@ p, h1, h2, h3, li {
 }
 
 #new-assess-thumbnails-start{
-    padding: 50px 180px 0px 180px;
+    padding: 35px 180px 0px 180px;
 }
 #new-assess-thumbnails-start .thumbnail{
     padding-top: 30px;
@@ -87,7 +87,7 @@ p, h1, h2, h3, li {
 
 
 #new-assess-thumbnails-start .caption h3{
-    font-size: 17px;
+    font-size: 15px;
     text-align: center;
 }
 
@@ -99,6 +99,7 @@ p, h1, h2, h3, li {
     margin-top: -10px;
     padding-left: 100px;
 }
+
 
 #append-quest-here{
     width: 100%;
@@ -184,16 +185,22 @@ p, h1, h2, h3, li {
 }
 
 #buttons-next-quest{
-    margin-bottom: 100px;
+    padding: 0px 80px 0px 80px;
+    width: 100%;
+    margin: 0px 0px 50px 0px;
 }
 #new-assess-thumbnails-other-quest{
     padding-right: 57px;
-    width:35%;
+    padding-left: 57px;
     float:right;
 }
 
 #new-assess-thumbnails-other-quest .thumbnail{
     border-radius: 7px;
+}
+
+#new-assess-thumbnails-other-quest>div>div{
+    float: right;
 }
 
 
@@ -250,7 +257,7 @@ p, h1, h2, h3, li {
 
 
 
-.mult-pic-add-opt{
+.mcp-pic-panel{
     padding: 10px 0px 20px 25px;
 }
 
@@ -276,7 +283,22 @@ div[id*="mcp-picHolder"] a button{
     padding: 15px 0px 5px 0px;
 }
 
+div[id^="line"] {
+    width: 100px;
+    height: 1px;
+    border: solid thin red;
+    position: absolute;
+    background-color: red;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.draggable { width: 180px; position:absolute;}
 
 
+.label-quest .my-quest-panel-ans>div:first-child {
+    display:none;
+}
 
 
